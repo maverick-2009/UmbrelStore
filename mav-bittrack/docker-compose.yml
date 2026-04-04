@@ -6,7 +6,7 @@ services:
       APP_PORT: 8585
 
   server:
-    image: ghcr.io/maverick-2009/bittrack:1.0.0@sha256:5af176f7f18dd659b49c6cfad9672bca9b98b8893e91e7ff59998a343cbab109
+    image: ghcr.io/maverick-2009/bittrack:1.0.0@sha256:15feda63da92e5b3cf0069428fd2621e5c33d9df061040c224872e17d0e2bbf5
     init: true
     restart: on-failure
     stop_grace_period: 1m
