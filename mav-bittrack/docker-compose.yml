@@ -5,7 +5,7 @@ services:
       APP_HOST: mav-bittrack_server_1
       APP_PORT: 8585
   server:
-    image: ghcr.io/maverick-2009/bittrack:1.0.0@sha256:14a6d53aa4cbbd2a6c4dd1c164cc9ba6a70fc94699e10cfa164dd0452be7bac6
+    image: ghcr.io/maverick-2009/bittrack:1.0.0@sha256:06a7c53f541dc80d1c369a0aeae04a6ea15f3b1b3193fc13723848ae7002336d
     init: true
     restart: on-failure
     stop_grace_period: 1m
